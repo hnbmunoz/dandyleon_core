@@ -22,5 +22,16 @@
   <body>
     <%= yield %>
      <%= javascript_include_tag "reactBundle" %>
+   
+
+     <!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    
   </body>
+     <%= javascript_include_tag "fbscripts" %>
 </html>
